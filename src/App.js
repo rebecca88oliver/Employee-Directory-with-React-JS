@@ -7,6 +7,7 @@ import SearchTable from "./components/SearchTable/SearchTable";
 import axios from "axios";
 import { Container, Row, Col } from "react-bootstrap";
 
+
 //Determines app state
 const App = () => {
 	const [filteredUsers, setFilteredUsers] = useState([]);
@@ -73,7 +74,7 @@ const App = () => {
 				<Col>
 					<Header
 						title="Employee Directory"
-						subtitle="Click in the arrow to sort the users by name"
+						subtitle="Type a name in the search bar!"
 					/>
 					<Search
 						name=""
